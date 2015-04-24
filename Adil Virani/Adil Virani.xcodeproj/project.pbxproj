@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCFD96AB1AEA0CFE000C6426 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFD96AA1AEA0CFE000C6426 /* AppDelegate.swift */; };
+		CCFD96AD1AEA0CFE000C6426 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFD96AC1AEA0CFE000C6426 /* ViewController.swift */; };
+		CCFD96B01AEA0CFE000C6426 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCFD96AE1AEA0CFE000C6426 /* Main.storyboard */; };
+		CCFD96B21AEA0CFE000C6426 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCFD96B11AEA0CFE000C6426 /* Images.xcassets */; };
+		CCFD96B51AEA0CFE000C6426 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCFD96B31AEA0CFE000C6426 /* LaunchScreen.xib */; };
+		CCFD96C11AEA0CFE000C6426 /* Adil_ViraniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFD96C01AEA0CFE000C6426 /* Adil_ViraniTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCFD96BB1AEA0CFE000C6426 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCFD969D1AEA0CFE000C6426 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCFD96A41AEA0CFE000C6426;
+			remoteInfo = "Adil Virani";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCFD96A51AEA0CFE000C6426 /* Adil Virani.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Adil Virani.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCFD96A91AEA0CFE000C6426 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCFD96AA1AEA0CFE000C6426 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCFD96AC1AEA0CFE000C6426 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CCFD96AF1AEA0CFE000C6426 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCFD96B11AEA0CFE000C6426 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CCFD96B41AEA0CFE000C6426 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CCFD96BA1AEA0CFE000C6426 /* Adil ViraniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Adil ViraniTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCFD96BF1AEA0CFE000C6426 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCFD96C01AEA0CFE000C6426 /* Adil_ViraniTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adil_ViraniTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCFD96A21AEA0CFE000C6426 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCFD96B71AEA0CFE000C6426 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCFD969C1AEA0CFE000C6426 = {
+			isa = PBXGroup;
+			children = (
+				CCFD96A71AEA0CFE000C6426 /* Adil Virani */,
+				CCFD96BD1AEA0CFE000C6426 /* Adil ViraniTests */,
+				CCFD96A61AEA0CFE000C6426 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCFD96A61AEA0CFE000C6426 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCFD96A51AEA0CFE000C6426 /* Adil Virani.app */,
+				CCFD96BA1AEA0CFE000C6426 /* Adil ViraniTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCFD96A71AEA0CFE000C6426 /* Adil Virani */ = {
+			isa = PBXGroup;
+			children = (
+				CCFD96AA1AEA0CFE000C6426 /* AppDelegate.swift */,
+				CCFD96AC1AEA0CFE000C6426 /* ViewController.swift */,
+				CCFD96AE1AEA0CFE000C6426 /* Main.storyboard */,
+				CCFD96B11AEA0CFE000C6426 /* Images.xcassets */,
+				CCFD96B31AEA0CFE000C6426 /* LaunchScreen.xib */,
+				CCFD96A81AEA0CFE000C6426 /* Supporting Files */,
+			);
+			path = "Adil Virani";
+			sourceTree = "<group>";
+		};
+		CCFD96A81AEA0CFE000C6426 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCFD96A91AEA0CFE000C6426 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCFD96BD1AEA0CFE000C6426 /* Adil ViraniTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCFD96C01AEA0CFE000C6426 /* Adil_ViraniTests.swift */,
+				CCFD96BE1AEA0CFE000C6426 /* Supporting Files */,
+			);
+			path = "Adil ViraniTests";
+			sourceTree = "<group>";
+		};
+		CCFD96BE1AEA0CFE000C6426 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCFD96BF1AEA0CFE000C6426 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCFD96A41AEA0CFE000C6426 /* Adil Virani */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCFD96C41AEA0CFE000C6426 /* Build configuration list for PBXNativeTarget "Adil Virani" */;
+			buildPhases = (
+				CCFD96A11AEA0CFE000C6426 /* Sources */,
+				CCFD96A21AEA0CFE000C6426 /* Frameworks */,
+				CCFD96A31AEA0CFE000C6426 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Adil Virani";
+			productName = "Adil Virani";
+			productReference = CCFD96A51AEA0CFE000C6426 /* Adil Virani.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCFD96B91AEA0CFE000C6426 /* Adil ViraniTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCFD96C71AEA0CFE000C6426 /* Build configuration list for PBXNativeTarget "Adil ViraniTests" */;
+			buildPhases = (
+				CCFD96B61AEA0CFE000C6426 /* Sources */,
+				CCFD96B71AEA0CFE000C6426 /* Frameworks */,
+				CCFD96B81AEA0CFE000C6426 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCFD96BC1AEA0CFE000C6426 /* PBXTargetDependency */,
+			);
+			name = "Adil ViraniTests";
+			productName = "Adil ViraniTests";
+			productReference = CCFD96BA1AEA0CFE000C6426 /* Adil ViraniTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCFD969D1AEA0CFE000C6426 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Adil  Virani";
+				TargetAttributes = {
+					CCFD96A41AEA0CFE000C6426 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					CCFD96B91AEA0CFE000C6426 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = CCFD96A41AEA0CFE000C6426;
+					};
+				};
+			};
+			buildConfigurationList = CCFD96A01AEA0CFE000C6426 /* Build configuration list for PBXProject "Adil Virani" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCFD969C1AEA0CFE000C6426;
+			productRefGroup = CCFD96A61AEA0CFE000C6426 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCFD96A41AEA0CFE000C6426 /* Adil Virani */,
+				CCFD96B91AEA0CFE000C6426 /* Adil ViraniTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCFD96A31AEA0CFE000C6426 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCFD96B01AEA0CFE000C6426 /* Main.storyboard in Resources */,
+				CCFD96B51AEA0CFE000C6426 /* LaunchScreen.xib in Resources */,
+				CCFD96B21AEA0CFE000C6426 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCFD96B81AEA0CFE000C6426 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCFD96A11AEA0CFE000C6426 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCFD96AD1AEA0CFE000C6426 /* ViewController.swift in Sources */,
+				CCFD96AB1AEA0CFE000C6426 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCFD96B61AEA0CFE000C6426 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCFD96C11AEA0CFE000C6426 /* Adil_ViraniTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCFD96BC1AEA0CFE000C6426 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCFD96A41AEA0CFE000C6426 /* Adil Virani */;
+			targetProxy = CCFD96BB1AEA0CFE000C6426 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCFD96AE1AEA0CFE000C6426 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCFD96AF1AEA0CFE000C6426 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCFD96B31AEA0CFE000C6426 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCFD96B41AEA0CFE000C6426 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCFD96C21AEA0CFE000C6426 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCFD96C31AEA0CFE000C6426 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCFD96C51AEA0CFE000C6426 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Adil Virani/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CCFD96C61AEA0CFE000C6426 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Adil Virani/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CCFD96C81AEA0CFE000C6426 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Adil ViraniTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Adil Virani.app/Adil Virani";
+			};
+			name = Debug;
+		};
+		CCFD96C91AEA0CFE000C6426 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Adil ViraniTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Adil Virani.app/Adil Virani";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCFD96A01AEA0CFE000C6426 /* Build configuration list for PBXProject "Adil Virani" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCFD96C21AEA0CFE000C6426 /* Debug */,
+				CCFD96C31AEA0CFE000C6426 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCFD96C41AEA0CFE000C6426 /* Build configuration list for PBXNativeTarget "Adil Virani" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCFD96C51AEA0CFE000C6426 /* Debug */,
+				CCFD96C61AEA0CFE000C6426 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCFD96C71AEA0CFE000C6426 /* Build configuration list for PBXNativeTarget "Adil ViraniTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCFD96C81AEA0CFE000C6426 /* Debug */,
+				CCFD96C91AEA0CFE000C6426 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCFD969D1AEA0CFE000C6426 /* Project object */;
+}
