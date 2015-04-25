@@ -56,6 +56,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC4A58811AEC10A9006F00D7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CCFD96AE1AEA0CFE000C6426 /* Main.storyboard */,
+				CCFD96B31AEA0CFE000C6426 /* LaunchScreen.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		CC4A58821AEC10C2006F00D7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CCFD96AC1AEA0CFE000C6426 /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		CCFD969C1AEA0CFE000C6426 = {
 			isa = PBXGroup;
 			children = (
@@ -77,11 +94,10 @@
 		CCFD96A71AEA0CFE000C6426 /* Adil Virani */ = {
 			isa = PBXGroup;
 			children = (
+				CC4A58821AEC10C2006F00D7 /* Controllers */,
+				CC4A58811AEC10A9006F00D7 /* Views */,
 				CCFD96AA1AEA0CFE000C6426 /* AppDelegate.swift */,
-				CCFD96AC1AEA0CFE000C6426 /* ViewController.swift */,
-				CCFD96AE1AEA0CFE000C6426 /* Main.storyboard */,
 				CCFD96B11AEA0CFE000C6426 /* Images.xcassets */,
-				CCFD96B31AEA0CFE000C6426 /* LaunchScreen.xib */,
 				CCFD96A81AEA0CFE000C6426 /* Supporting Files */,
 			);
 			path = "Adil Virani";
