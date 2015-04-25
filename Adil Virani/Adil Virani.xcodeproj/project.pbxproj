@@ -409,6 +409,7 @@
 				CCFD96C61AEA0CFE000C6426 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCFD96C71AEA0CFE000C6426 /* Build configuration list for PBXNativeTarget "Adil ViraniTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +418,7 @@
 				CCFD96C91AEA0CFE000C6426 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
