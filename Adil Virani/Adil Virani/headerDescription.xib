@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HeaderDescription" customModule="Adil_Virani" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SSm-Gf-yHj">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="150"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile-draw" translatesAutoresizingMaskIntoConstraints="NO" id="4KB-bb-Lhq">
+                            <rect key="frame" x="260" y="-10" width="80" height="80"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="80" id="8dr-h4-YBO"/>
+                                <constraint firstAttribute="width" secondItem="4KB-bb-Lhq" secondAttribute="height" multiplier="1:1" id="kJO-oc-CHc"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adil Sikander Virani" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KKr-ZV-T6y">
+                            <rect key="frame" x="148" y="98" width="144" height="20"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="16"/>
+                            <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="17 Years" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wmi-OR-9jn">
+                            <rect key="frame" x="357" y="122" width="47" height="14"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                            <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="centerX" secondItem="4KB-bb-Lhq" secondAttribute="centerX" id="05V-r3-jYu"/>
+                        <constraint firstAttribute="height" constant="150" id="Epn-Pp-d02"/>
+                        <constraint firstItem="Wmi-OR-9jn" firstAttribute="centerX" secondItem="4KB-bb-Lhq" secondAttribute="centerX" constant="80" id="LTg-bu-4Xw"/>
+                        <constraint firstItem="KKr-ZV-T6y" firstAttribute="top" secondItem="SSm-Gf-yHj" secondAttribute="top" constant="98" id="bGh-1E-giZ"/>
+                        <constraint firstItem="KKr-ZV-T6y" firstAttribute="centerX" secondItem="4KB-bb-Lhq" secondAttribute="centerX" constant="-80" id="bSI-tC-0XU"/>
+                        <constraint firstItem="4KB-bb-Lhq" firstAttribute="top" secondItem="SSm-Gf-yHj" secondAttribute="top" constant="-10" id="eBv-xd-n0w"/>
+                        <constraint firstItem="Wmi-OR-9jn" firstAttribute="top" secondItem="KKr-ZV-T6y" secondAttribute="bottom" constant="4" id="eFB-td-6z0"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="SSm-Gf-yHj" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="0PS-gT-Cf5"/>
+                <constraint firstItem="SSm-Gf-yHj" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="3Bf-xw-oE5"/>
+                <constraint firstAttribute="trailing" secondItem="SSm-Gf-yHj" secondAttribute="trailing" id="Y1u-cV-AFi"/>
+            </constraints>
+            <connections>
+                <outlet property="profileAge" destination="Wmi-OR-9jn" id="9kJ-Qj-xBs"/>
+                <outlet property="profileImage" destination="4KB-bb-Lhq" id="qvI-b1-cGZ"/>
+                <outlet property="profileName" destination="KKr-ZV-T6y" id="Qda-VM-bdW"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="profile-draw" width="60" height="60"/>
+    </resources>
+</document>
